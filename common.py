@@ -28,9 +28,10 @@ import urllib
 import urllib.request
 
 from shell_helpers import LF
+# Although I personally support any type of transparency and freedom of info, this line is commented out due to problems with creating docker container
 # https://cirosantilli.com/china-dictatorship/#mirrors
-import china_dictatorship
-assert "Tiananmen Square protests" in china_dictatorship.get_data()
+#import china_dictatorship
+#assert "Tiananmen Square protests" in china_dictatorship.get_data()
 import cli_function
 import path_properties
 import shell_helpers
